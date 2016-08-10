@@ -105,3 +105,12 @@ let g:html_indent_style1 = "inc"
 let g:html_indent_inctags = "html,body,head,tbody"  
 set smartindent
 set expandtab 
+
+set rtp+=/usr/local/lib/python2.7/dist-packages/powerline/bindings/vim/
+
+" Always show statusline
+set laststatus=2
+"
+" " Use 256 colours (Use this setting only if your terminal supports 256
+" colours)
+set t_Co=256"

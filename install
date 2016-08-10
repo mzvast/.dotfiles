@@ -12,6 +12,7 @@ VUNDLE_DIR="vim/bundle/Vundle.vim"
 cd "${BASEDIR}"
 git submodule update --init --recursive "${DOTBOT_DIR}"
 git submodule update --init --recursive "${VUNDLE_DIR}"
-vim +PluginInstall +qall
 
 "${BASEDIR}/${DOTBOT_DIR}/${DOTBOT_BIN}" -d "${BASEDIR}" -c "${CONFIG}" "${@}"
+
+vim +PluginInstall +qall

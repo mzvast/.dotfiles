@@ -8,4 +8,4 @@
     ~/.vimrc: vimrc
     ~/.zshrc: zshrc
     ~/.vim: vim
-
+    ~/.tmux.conf: tmux.conf
