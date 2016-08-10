@@ -1,5 +1,3 @@
-set nocompatible              " be iMproved, equired
-"filetype off                  " required
 filetype on
 
 " set the runtime path to include Vundle and initialize
@@ -70,7 +68,22 @@ let g:UltiSnipsEditSplit="vertical"
 
 Plugin 'kien/ctrlp.vim'
 
+Plugin 'airblade/vim-gitgutter'
 
+Plugin 'myusuf3/numbers.vim'
+Plugin 'jeffkreeftmeijer/vim-numbertoggle'
+
+Plugin 'powerline/powerline'
+
+"Plugin 'ap/vim-css-color'
+
+"Plugin 'universal-ctags/ctags'
+"Plugin 'majutsushi/tagbar'
+"nmap <F8> :TagbarToggle<CR>
+
+"Plugin 'kien/rainbow_parentheses.vim'
+
+"Plugin 'nathanaelkane/vim-indent-guides'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
