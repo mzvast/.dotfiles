@@ -9,3 +9,4 @@
     ~/.zshrc: zshrc
     ~/.vim: vim
     ~/.tmux.conf: tmux.conf
+    ~/.gitconfig: gitconfig

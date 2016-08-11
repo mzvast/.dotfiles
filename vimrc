@@ -1,3 +1,4 @@
+syn on
 filetype on
 
 " set the runtime path to include Vundle and initialize
@@ -81,9 +82,10 @@ Plugin 'ap/vim-css-color'
 "Plugin 'majutsushi/tagbar'
 "nmap <F8> :TagbarToggle<CR>
 
-Plugin 'kien/rainbow_parentheses.vim'
+"Plugin 'kien/rainbow_parentheses.vim'
+Plugin 'yggdroot/indentline'
 
-Plugin 'nathanaelkane/vim-indent-guides'
+"Plugin 'nathanaelkane/vim-indent-guides'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
