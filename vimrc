@@ -1,3 +1,4 @@
+syn on
 filetype on
 
 " set the runtime path to include Vundle and initialize
@@ -75,7 +76,7 @@ Plugin 'jeffkreeftmeijer/vim-numbertoggle'
 
 Plugin 'powerline/powerline'
 
-"Plugin 'ap/vim-css-color'
+Plugin 'ap/vim-css-color'
 
 "Plugin 'universal-ctags/ctags'
 "Plugin 'majutsushi/tagbar'
@@ -83,6 +84,7 @@ Plugin 'powerline/powerline'
 
 "Plugin 'kien/rainbow_parentheses.vim'
 
+Plugin 'yggdroot/indentline'
 "Plugin 'nathanaelkane/vim-indent-guides'
 
 " All of your Plugins must be added before the following line
