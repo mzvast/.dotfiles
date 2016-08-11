@@ -114,6 +114,6 @@ if ! shopt -oq posix; then
 fi
 
 export TERM=xterm-256color
-if [ -f /usr/local/lib/python2.7/dist-packages/powerline/bindings/bash/powerline.sh  ]; then
-            source /usr/local/lib/python2.7/dist-packages/powerline/bindings/bash/powerline.sh
+if [ -f /usr/lib/python2.6/site-packages/powerline/bindings/bash/powerline.sh  ]; then
+            source /usr/lib/python2.6/site-packages/powerline/bindings/bash/powerline.sh
     fi

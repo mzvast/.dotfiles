@@ -75,15 +75,15 @@ Plugin 'jeffkreeftmeijer/vim-numbertoggle'
 
 Plugin 'powerline/powerline'
 
-"Plugin 'ap/vim-css-color'
+Plugin 'ap/vim-css-color'
 
 "Plugin 'universal-ctags/ctags'
 "Plugin 'majutsushi/tagbar'
 "nmap <F8> :TagbarToggle<CR>
 
-"Plugin 'kien/rainbow_parentheses.vim'
+Plugin 'kien/rainbow_parentheses.vim'
 
-"Plugin 'nathanaelkane/vim-indent-guides'
+Plugin 'nathanaelkane/vim-indent-guides'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -106,7 +106,7 @@ let g:html_indent_inctags = "html,body,head,tbody"
 set smartindent
 set expandtab 
 
-set rtp+=/usr/local/lib/python2.7/dist-packages/powerline/bindings/vim/
+set rtp+=/usr/lib/python2.6/site-packages/powerline/bindings/vim/
 
 " Always show statusline
 set laststatus=2

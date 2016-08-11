@@ -87,6 +87,6 @@ source $ZSH/oh-my-zsh.sh
 #PROMPT='${ret_status} %{$fg[cyan]%}%d%{$reset_color%} $(git_prompt_info)>'
 
 export TERM=xterm-256color
-if [[ -r /usr/local/lib/python2.7/dist-packages/powerline/bindings/zsh/powerline.zsh  ]]; then
-            source /usr/local/lib/python2.7/dist-packages/powerline/bindings/zsh/powerline.zsh
+if [[ -r /usr/lib/python2.6/site-packages/powerline/bindings/zsh/powerline.zsh  ]]; then
+            source /usr/lib/python2.6/site-packages/powerline/bindings/zsh/powerline.zsh
     fi
