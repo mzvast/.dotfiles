@@ -90,3 +90,9 @@ export TERM=xterm-256color
 if [[ -r /usr/local/lib/python2.7/dist-packages/powerline/bindings/zsh/powerline.zsh  ]]; then
             source /usr/local/lib/python2.7/dist-packages/powerline/bindings/zsh/powerline.zsh
     fi
+
+# npm ls top level hack
+ function npmls() {
+   npm ls --depth=0 "$@" 2>/dev/null
+   }
+
