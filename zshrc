@@ -88,5 +88,8 @@ source $ZSH/oh-my-zsh.sh
 
 export TERM=xterm-256color
 if [[ -r /usr/lib/python2.6/site-packages/powerline/bindings/zsh/powerline.zsh  ]]; then
-            source /usr/lib/python2.6/site-packages/powerline/bindings/zsh/powerline.zsh
-    fi
+        source /usr/lib/python2.6/site-packages/powerline/bindings/zsh/powerline.zsh
+fi
+function npmls() {
+  npm ls --depth=0 "$@" 2>/dev/null
+}

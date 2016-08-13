@@ -1,13 +1,12 @@
-# some more ls aliases
-alias vi='vim '
-alias egrep='egrep --color=auto'
-alias fgrep='fgrep --color=auto'
-alias grep='grep --color=auto'
-alias l='ls -CF'
-alias la='ls -A'
-alias ll='ls -alF'
-alias ls='ls --color=auto'
+# .bash_profile
 
-alias gl='git log --oneline --graph'
+# Get the aliases and functions
+if [ -f ~/.bashrc ]; then
+	. ~/.bashrc
+fi
 
+# User specific environment and startup programs
 
+PATH=$PATH:$HOME/bin
+
+export PATH
