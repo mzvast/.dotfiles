@@ -11,3 +11,9 @@ alias ls='ls --color=auto'
 alias gl='git log --oneline --graph'
 
 
+export NVM_DIR="/home/student/.nvm"                              
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+function npmls() {                 
+  npm ls --depth=0 "$@" 2>/dev/null
+ }                                  
