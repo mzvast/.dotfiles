@@ -12,9 +12,6 @@ if [ -f /usr/lib/python2.6/site-packages/powerline/bindings/bash/powerline.sh   
         source /usr/lib/python2.6/site-packages/powerline/bindings/bash/powerline.sh
 fi
 
-export NVM_DIR="/root/.nvm"
+export NVM_DIR="~/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
-function npmls() {                 
-  npm ls --depth=0 "$@" 2>/dev/null
-}                                 
